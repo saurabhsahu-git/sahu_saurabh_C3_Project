@@ -77,7 +77,7 @@ class RestaurantTest {
         SelectedItems.add("Sweet corn soup");
         SelectedItems.add("Vegetable lasagne");
 
-        assertEquals(388,restaurant.getOrderAmount());
+        assertEquals(388,restaurant.getOrderAmount(SelectedItems));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<TOTAL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 }
