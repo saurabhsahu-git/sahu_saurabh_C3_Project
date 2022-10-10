@@ -64,4 +64,7 @@ public class Restaurant {
         return name;
     }
 
+    public int getOrderAmount(){
+        return 0;
+    }
 }
